@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir flask yt-dlp
 
 # Expose the port your app runs on
-EXPOSE 5000
+#EXPOSE 5000
 
 # Run the application
 CMD ["python", "app.py"]
